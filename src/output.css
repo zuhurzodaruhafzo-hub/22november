@@ -10,6 +10,8 @@
     --color-violet-200: oklch(89.4% 0.057 293.283);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
     --radius-2xl: 1rem;
@@ -199,6 +201,9 @@
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
@@ -219,6 +224,12 @@
   }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
+  }
+  .ml-11 {
+    margin-left: calc(var(--spacing) * 11);
+  }
+  .ml-22 {
+    margin-left: calc(var(--spacing) * 22);
   }
   .ml-auto {
     margin-left: auto;
@@ -258,6 +269,9 @@
   }
   .h-\[314px\] {
     height: 314px;
+  }
+  .h-\[430px\] {
+    height: 430px;
   }
   .h-\[600px\] {
     height: 600px;
@@ -322,6 +336,9 @@
   .w-\[548px\] {
     width: 548px;
   }
+  .w-full {
+    width: 100%;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -352,6 +369,9 @@
   .gap-12 {
     gap: calc(var(--spacing) * 12);
   }
+  .gap-14 {
+    gap: calc(var(--spacing) * 14);
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -377,6 +397,12 @@
   .border-\[\#FFFFFF66\] {
     border-color: #FFFFFF66;
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
+  .bg-\[\#1A1930\] {
+    background-color: #1A1930;
+  }
   .bg-\[\#6259EA\] {
     background-color: #6259EA;
   }
@@ -395,11 +421,17 @@
   .p-7 {
     padding: calc(var(--spacing) * 7);
   }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
+  }
   .pt-7 {
     padding-top: calc(var(--spacing) * 7);
   }
   .pt-28 {
     padding-top: calc(var(--spacing) * 28);
+  }
+  .pb-5 {
+    padding-bottom: calc(var(--spacing) * 5);
   }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
@@ -422,9 +454,16 @@
   .text-end {
     text-align: end;
   }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
   .text-7xl {
     font-size: var(--text-7xl);
     line-height: var(--tw-leading, var(--text-7xl--line-height));
+  }
+  .text-\[14px\] {
+    font-size: 14px;
   }
   .text-\[15px\] {
     font-size: 15px;
@@ -458,6 +497,12 @@
   }
   .text-\[\#1A1930\] {
     color: #1A1930;
+  }
+  .text-\[\#6259EA\] {
+    color: #6259EA;
+  }
+  .text-\[18\] {
+    color: 18;
   }
   .text-white {
     color: var(--color-white);
